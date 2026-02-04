@@ -19,8 +19,8 @@ A production-ready backend for an "Experiences" marketplace: Users, Hosts, and A
 ```
 src/
 ├── db/
-│   ├── connection.ts      # Database connection pool
-│   ├── migrate.ts         # Migration runner
+│   ├── connection.ts     
+│   ├── migrate.ts        
 │   └── schema.sql         # Database schema
 ├── middlewares/
 │   ├── auth.ts            # Authentication & RBAC middleware
